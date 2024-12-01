@@ -1,6 +1,4 @@
-/* App.css */
 
-/* Toàn bộ ứng dụng */
 .app {
     font-family: 'Arial', sans-serif;
     background-color: #f8f9fa;
@@ -13,7 +11,7 @@
     min-height: 100vh;
   }
   
-  /* Tiêu đề chính */
+
   h1 {
     font-size: 3rem;
     color: #007bff;
