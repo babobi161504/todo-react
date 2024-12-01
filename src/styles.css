@@ -1,0 +1,142 @@
+/* App.css */
+
+/* Toàn bộ ứng dụng */
+.app {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Tiêu đề chính */
+  h1 {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  /* Form để thêm task */
+  .task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field {
+    padding: 12px;
+    font-size: 1.2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border: 1px solid #007bff;
+    outline: none;
+  }
+  
+  .submit-button {
+    padding: 12px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Danh sách các task */
+  .task-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .task-item {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .task-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .task-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-checkbox {
+    margin-right: 15px;
+  }
+  
+  .task-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .task-title.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .task-description {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+  }
+  
+  .task-actions {
+    margin-top: 10px;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
